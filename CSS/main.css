@@ -1,0 +1,197 @@
+body {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  font-family: georgia, "times new roman", times, serif;
+  font-size: 18px;
+}
+.navbar-inverse {
+  background-color: rgba(20, 20, 20, 0.9);
+}
+
+#home {
+  margin: 0;
+  margin-top: -29px!important;
+  background-color: #aeaaaa;
+  padding-top: 78px;
+}
+#about {
+  background: url(https://www.dropbox.com/s/yji10e2rxma58ed/pink-something2.png?dl=0&raw=1) no-repeat center center fixed;
+  display: table;
+  height: auto;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  vertical-align: middle;
+  margin: 0;
+  padding: 80px 0;
+}
+dl {
+  font-family: courier;
+}
+
+
+/*works*/
+.block {
+    box-shadow: 4px 4px 7px #333;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 10%;
+}
+.works {
+    padding-bottom: 3%;
+    background: #fff;
+}
+.works-thumb {
+    height: 300px;
+}
+#work-1 {
+    background: url("https://agitated-roentgen-e67296.netlify.app/Images/car rental image.png") no-repeat 50%;
+    background-size: cover;
+    
+}
+#work-2 {
+    background: url("https://objective-galileo-7178da.netlify.app/Images/")  no-repeat 92%;
+    background-size: cover;
+}
+#work-3 {
+    background: url("https://cdn-images-1.medium.com/max/1200/1*nu5ahwQPoIj7Vj1Vz3QI9w.png") no-repeat 100%;
+    background-size: cover;
+}
+#work-4 {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/0/04/Wikipedia-LGBT.png") no-repeat 100%;
+    background-size: cover;
+}
+#work-5 {
+    background: url("https://www.twitch.tv/p/assets/uploads/twitch_474x356.png") no-repeat 100%;
+    background-size: cover;
+}
+#work-6 {
+    background: url("https://lh3.googleusercontent.com/pelG43EdGEcR35-VmrjgVh990tQg3dFfA00b42fUQ8xPyjDemF0Um3YUNPVvP2UCedI=w300") no-repeat 100%;
+    background-size: cover;
+}
+.block::after, .block::before {
+    content: '';
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+.block::after {
+    left: -50%;
+    transition: 0.5s;
+}
+.block::before {
+    right: -50%;
+    transition: 0.5s;
+}
+.block:hover:after {
+    left: 0;
+}
+.block:hover:before {
+    right: 0;
+}
+.works-caption {
+    text-align: center;
+    font-family: "Lato", serif;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    position: absolute;
+    border-radius: 10px;
+    display: block;
+    padding: 15px 2px;
+    width: 60%;
+    left: 20%;
+    top:-40%;
+    z-index: 1;
+    color: #fff;
+    border: 2px solid #fff;
+    transition: top 0.5s;
+}
+.block:hover .works-caption {
+    top: 33%;
+}
+.works h2 {
+    margin: 7% 0;
+}
+
+/*works end*/
+
+.skills {
+    background: #333;
+    text-align: center;
+}
+.skills h2 {
+    margin: 7%;
+    color: #fff;
+}
+.skills .skills-thumb {
+   margin-bottom: 5%;
+}
+/*skills end*/
+
+/*social list main*/
+/*.social-footer {
+    background: #fff;
+}
+.social-footer h2 {
+    margin: 5% 0 3%;
+}
+.social-footer .social-list {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 5%;
+}
+.social-footer .social-list li a{
+    display: block;
+    position: relative;
+    border: 2px solid #444;
+    transform: rotate(45deg);
+    width: 60px;
+    height: 60px;
+}
+.social-footer .social-list li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+}
+.social-footer .social-list li a i {
+    margin-top: 5px;
+    color: #444
+}
+.social-footer .social-list li:hover i {
+    color: #ffb424;
+}
+.social-footer .social-list .fa-facebook {
+    padding: 2px 0 0 0;
+}
+*/
+
+/*.portfolio {
+  background-color: #e2e1e1;
+}
+#portfolio h1 {
+  margin: 50px 0;
+}
+
+.thumbnail {
+  hheight: 320px;
+  height: 19em;
+}
+.thumbnail img {
+  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.16), 0 0px 2px 0 rgba(0, 0, 0, 0.12)!important;
+}
+
+.thumbnail p {
+  font-size: 16px;
+  text-align: left;
+  font-family: courier;
+}*/
